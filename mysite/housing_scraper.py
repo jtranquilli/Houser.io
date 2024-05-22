@@ -13,7 +13,7 @@ import random
 
 # make sure that the ordering of columns in the new db is the same as in posts.db
 
-blacklist = ["women only", "girls only", "females only", "swap", "queer only"]
+blacklist = ["swap"]
 
 street_address   = re.compile('\d{2,4} [\w\s]{1,20}(rue|Rue|RUE|rue de la|RUE DE LA|:?:street||de la|rue|st|avenue|ave|road|rd|highway|hwy|square|sq|trail|trl|drive|dr|court|ct|park|parkway|pkwy|circle|cir|boulevard|blvd)\W?(?=\s|$)', re.IGNORECASE)
 
